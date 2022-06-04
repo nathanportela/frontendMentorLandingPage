@@ -1,0 +1,66 @@
+@media screen and (max-width: 921px) {
+    .left-side {
+        display: flex;
+        align-items: center;
+    }
+
+    .hero{
+        margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    header img{
+        width: 10rem;
+        margin-top: 2rem;
+    }
+    
+    body {
+      background-image: url(../images/bg-mobile.svg);
+      background-size: cover;
+    }
+
+    .left-side {
+        display: flex;
+        align-items: center;
+    }
+
+    .hero{
+        margin: 4rem 0 0;
+        flex-direction: column;
+    }
+
+    h1{
+        width: 100%;
+    }
+
+    p{
+        font-size: 1.1rem;
+    }
+    .left-side{
+        width: 100%;
+    }
+    .right-side{
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-side a{
+        display: flex;
+        justify-content: center;
+    }
+
+    .button{
+        width: 6rem;
+    }
+
+    .socials{
+        justify-content: center;
+        margin: 1rem 0 5rem 0;
+    }
+
+    i{
+        margin: 0 0.5rem 0 0.5rem;
+    }
+
+  }
