@@ -9,16 +9,13 @@ body{
 
 .container{
     margin: auto;
-    /* background-color: aqua; */
     margin-top: 3%;
     width: 85%;
-    /* width: 70rem; */
     display: flex;
     flex-direction: column;
 }
 
 header{
-    /* background-color: black; */
     width: 100%;
 }
 
@@ -100,8 +97,4 @@ i {
 i:hover{
     color: hsl(300, 69%, 71%);
 
-}
-
-.attribution a{
-    color: hsl(300, 69%, 71%);
 }
