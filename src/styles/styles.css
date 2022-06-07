@@ -75,6 +75,7 @@ p{
 
 a{    
     text-decoration: none;
+    width: 0rem;
 }
 
 .button:hover{
